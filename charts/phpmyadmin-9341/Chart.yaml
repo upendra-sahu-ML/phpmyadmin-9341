@@ -14,4 +14,4 @@ name: phpmyadmin-9341
 orig_name: phpmyadmin
 sources:
 - https://github.com/bitnami/bitnami-docker-phpmyadmin
-version: 1.2.1
+version: 0.0.1

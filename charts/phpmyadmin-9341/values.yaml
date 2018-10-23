@@ -24,7 +24,7 @@ image:
 ## ref: https://github.com/bitnami/bitnami-docker-phpmyadmin#environment-variables
 ##
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 80
 
 db:
@@ -34,7 +34,7 @@ db:
   ## you can pass a suffix that will be used to find the DB in releasename-dbSuffix
   ## please note that this setting precedes dbHost
   # chartName: mariadb
-  # host: foo
+  host: 10.233.2.0
 
 ingress:
   enabled: false
